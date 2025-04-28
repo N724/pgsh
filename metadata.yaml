@@ -1,6 +1,13 @@
-name: astrbot_plugin_weather
-desc: 胖乖生活插件
-help: 发送「/天气 地点」查询详细天气
-version: 1.0.0
-author: nbx
-repo: https://github.com/N724/tqyb
+id: pangguai_helper # Should match the id in @register
+name: 胖乖生活助手 # Plugin name displayed to user
+desc: 通过短信登录胖乖生活并将Token同步至青龙面板 # Short description
+help: | # Help text shown in general help command
+  发送 /胖乖帮助 获取详细指令。
+  主要功能：
+  /胖乖发码 <手机号>
+  /胖乖登录 <手机号> <验证码>
+  /胖乖查询 <手机号>
+version: 1.1.0 # Plugin version
+author: Adapted from linzixuan # Original author acknowledgment
+# repo: Optional URL to the plugin's repository
+# icon: Optional URL to an icon image
